@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Introduction from './components/Introduction'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import Socialmedia from "./components/Socialmedia"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
     <>
      <Header />
      <Introduction />
+     <Socialmedia />
      <Projects />
      <Footer />
     </>

@@ -6,7 +6,7 @@ export default function Header() {
       <nav className="header">
         <div className="name">
           <div>
-            <FaReact className="react-logo"/>
+            <FaReact className="react-logo" />
           </div>
           <div>
             <h1>Anku Kumari</h1>
