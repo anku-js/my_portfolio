@@ -10,7 +10,6 @@ export default function Header() {
           </div>
           <div>
             <h1>Anku Kumari</h1>
-            <p className="tagline">. . . a Frontend doveloper</p>
           </div>
         </div>
         <ul className="nav-list">
