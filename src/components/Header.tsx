@@ -2,7 +2,7 @@ import { FaReact } from "react-icons/fa";
 
 export default function Header() {
   return (
-    <div className="header-wrapper">
+    <div className="header-wrapper" id="header-wrapper">
       <nav className="header">
         <div className="name">
           <div>
