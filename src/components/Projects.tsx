@@ -1,6 +1,6 @@
 export default function Projects() {
   return (
-    <div className="projectlist-wrapper">
+    <div className="projectlist-container" id="projectlist-container" >
       <p className="projectlist-p">These are some of my projects...</p>
       <div className="projectlist">
         <a href="" target="_blank" className="project">

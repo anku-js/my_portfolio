@@ -5,7 +5,7 @@ import { BsGit, BsGithub } from "react-icons/bs"
 
 export default function Introduction() {
   return (
-    <div className="introduction-container">
+    <div className="introduction-container" id="introduction-container">
       <div className="introduction">
         <img className="avatar" src="avatar.png" />
         <div className="description-container">

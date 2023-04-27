@@ -5,7 +5,7 @@ import { RxResume } from "react-icons/rx";
 
 export default function Footer() {
   return (
-    <div className="footer-container">
+    <div className="footer-container" id="footer-container">
       <div className="footer">
         <h2 className="footer-p">Hoping to work together. . .</h2>
         <div className="contact-wrapper">

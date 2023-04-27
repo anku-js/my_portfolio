@@ -2,7 +2,7 @@ import { FaReact } from "react-icons/fa";
 
 export default function Header() {
   return (
-    <div className="header-wrapper" id="header-wrapper">
+    <div className="header-wrapper">
       <nav className="header">
         <div className="name">
           <div>
@@ -14,13 +14,13 @@ export default function Header() {
         </div>
         <ul className="nav-list">
           <li>
-            <a>About</a>
+            <a href="#introduction-container">About</a>
           </li>
           <li>
-            <a>Projects</a>
+            <a href="#projectlist-container">Projects</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="#footer-container">Contact</a>
           </li>
         </ul>
       </nav>
