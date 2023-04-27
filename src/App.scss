@@ -53,7 +53,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 800px;
+
     .avatar {
       width: 120px;
     }
@@ -98,16 +98,16 @@
   position: absolute;
   top: 300px;
   padding: 4px;
-  box-shadow: #100304 0 5px 10px 0;
+  box-shadow: #100304 0 5px 5px 0;
   background-color: #be3144;
-  .linked-in, .twitter, .github, .mail {
+  .socialmedia-icons {
     width: 50px;
     height: 50px;
     padding: 4px;
     border-radius: 5px;
     cursor: pointer;
   }
-  .linked-in:hover, .twitter:hover, .github:hover, .mail:hover{
+  .socialmedia-icons:hover {
     background-color: #d96572;
   }
 }
@@ -115,19 +115,41 @@
 .projectlist-wrapper {
   background-color: #45567d;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  padding-left: 20px;
+
   .projectlist-p {
     font-family: "Poppins", sans-serif;
     font-size: 40px;
+    border-bottom: 3px solid #fff;
   }
   .projectlist {
-display: flex;
-width: 100%;
-margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    .project {
+      background: #303841;
+      box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      border-radius: 2px;
+      margin: 20px;
+      cursor: pointer;
+      text-decoration: none;
+      .project-image {
+        height: calc(100% - 50px);
+        width: 380px;
+        object-fit: cover;
+      }
+      .project-title {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        padding: 8px;
+      }
+    }
+    .project:hover {
+      transform: scale(1.01);
+    }
   }
 }
