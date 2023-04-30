@@ -232,7 +232,7 @@
         align-self: baseline;
         padding: 10px;
         gap: 10px;
-        border-bottom: #fff solid 1px;
+        border-bottom: #fff solid 2px;
         .react-logo {
           width: 40px;
           height: 40px;
@@ -266,6 +266,7 @@
           font-weight: 100;
         }
         .skills-wrapper {
+          margin-left: 24px;
           .skills-list {
             display: grid;
             grid-template: auto/ repeat(2, 1fr);
