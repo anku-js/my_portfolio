@@ -17,14 +17,18 @@ export default function Footer() {
             <IoMdPhonePortrait />
             <p>Call me</p>
           </a>
-          <a target="_blank" href="https://drive.google.com/file/d/11xaq0GVMjMIu7KGtFJmhwTtF6YiPGVue/view?usp=share_link" className="contact">
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/11xaq0GVMjMIu7KGtFJmhwTtF6YiPGVue/view?usp=share_link"
+            className="contact"
+          >
             <RxResume />
             <p>My Resume</p>
           </a>
         </div>
       </div>
       <div className="end-section-container">
-      <p className="made-by">
+        <p className="made-by">
           <AiOutlineCopyright />
           <span>Made by Anku Kumari</span>
         </p>
