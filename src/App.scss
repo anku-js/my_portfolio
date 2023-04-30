@@ -251,7 +251,6 @@
     }
   }
   .introduction-container {
-    padding-top: 100px;
     .introduction {
       .avatar {
         width: 0px;
@@ -259,11 +258,11 @@
       .description-container {
         padding: 0px;
         .intro-name {
-          font-size: 26px;
+          font-size: 28px;
           font-weight: 500;
         }
         .intro-paragraph {
-          font-size: 14px;
+          font-size: 16px;
           font-weight: 100;
         }
         .skills-wrapper {
@@ -271,7 +270,7 @@
             display: grid;
             grid-template: auto/ repeat(2, 1fr);
             li {
-              font-weight: 400;
+              font-weight: 500;
               max-width: 120px;
               .skills-icons {
                 width: 30px;
@@ -295,6 +294,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      margin-bottom: 20px;
       .project {
         margin: 20px 0px;
         .project-image {
