@@ -35,6 +35,18 @@ export default function Projects() {
           />
           <p className="project-title">Tenzies</p>
         </a>
+        <a
+          href="https://edyoda-ypyn.vercel.app/"
+          target="_blank"
+          className="project"
+        >
+          <img
+            className="project-image"
+            src="edyoda screenshot.jpg"
+            alt="screenshot of tenzies game project"
+          />
+          <p className="project-title">Tenzies</p>
+        </a>
       </div>
     </div>
   );
