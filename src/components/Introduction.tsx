@@ -7,7 +7,7 @@ export default function Introduction() {
   return (
     <div className="introduction-container" id="introduction-container">
       <div className="introduction">
-        <img className="avatar" src="avatar.png" />
+        <img className="avatar" src="avatar.png" alt="animated avatar of a girl" />
         <div className="description-container">
           <p className="intro-name">Hey, I am Anku Kumari</p>
           <p className="intro-paragraph">

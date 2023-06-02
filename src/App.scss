@@ -73,6 +73,7 @@
     display: flex;
     .avatar {
       width: 150px;
+      height: 400px;
     }
     .description-container {
       padding: 20px;
@@ -328,11 +329,21 @@
       }
     }
   }
+
+  .social-media {
+    padding: 0px;
+    .socialmedia-icons {
+      width: 30px;
+      height: 30px;
+      padding: 0px;
+    }
+  }
+
   .projectlist-container {
     .projectlist-p {
       margin: 20px;
       font-size: 22px;
-      border-bottom: 1px solid #fff;
+      border-bottom: 2px solid #fff;
     }
     .projectlist {
       display: flex;
@@ -344,16 +355,10 @@
         .project-image {
           width: 320px;
         }
+        .project-title {
+          font-size: 18px
+        }
       }
-    }
-  }
-
-  .social-media {
-    padding: 0px;
-    .socialmedia-icons {
-      width: 30px;
-      height: 30px;
-      padding: 0px;
     }
   }
 
