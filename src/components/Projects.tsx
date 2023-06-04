@@ -9,7 +9,11 @@ export default function Projects() {
             src="friends.jpg"
             alt="screenshot of friend's list project"
           />
-          <p className="project-title">Friend's List</p>
+          <p className="project-title">
+            <span className="code">&lt;</span>
+            Friend's List
+            <span className="code">/&gt;</span>
+          </p>
         </a>
         <a
           href="https://main--luminous-monstera-f0a7de.netlify.app/"
@@ -21,7 +25,11 @@ export default function Projects() {
             src="shopping.jpg"
             alt="screenshot of shopping app project"
           />
-          <p className="project-title">Shopping</p>
+          <p className="project-title">
+            <span className="code">&lt;</span>
+            Shopping
+            <span className="code">/&gt;</span>
+          </p>
         </a>
         <a
           href="https://tenzies-wheat-one.vercel.app/"
@@ -33,7 +41,11 @@ export default function Projects() {
             src="tenzies.jpg"
             alt="screenshot of tenzies game project"
           />
-          <p className="project-title">Tenzies</p>
+          <p className="project-title">
+            <span className="code">&lt;</span>
+            Tenzies
+            <span className="code">/&gt;</span>
+          </p>
         </a>
         <a
           href="https://edyoda-ypyn.vercel.app/"
@@ -43,9 +55,29 @@ export default function Projects() {
           <img
             className="project-image"
             src="edyoda screenshot.jpg"
-            alt="screenshot of tenzies game project"
+            alt="screenshot of assessment project"
           />
-          <p className="project-title">Tenzies</p>
+          <p className="project-title">
+            <span className="code">&lt;</span>
+            Assessment
+            <span className="code">/&gt;</span>
+          </p>
+        </a>
+        <a
+          href="https://react-table-three.vercel.app/"
+          target="_blank"
+          className="project"
+        >
+          <img
+            className="project-image"
+            src="react-table.jpg"
+            alt="screenshot of react table project"
+          />
+          <p className="project-title">
+            <span className="code">&lt;</span>
+            React Table
+            <span className="code">/&gt;</span>
+          </p>
         </a>
       </div>
     </div>
