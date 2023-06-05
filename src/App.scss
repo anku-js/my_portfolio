@@ -252,7 +252,7 @@
   }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 860px) {
   .header-wrapper {
     .header {
       display: flex;
@@ -362,10 +362,13 @@
       .project {
         margin: 20px 0px;
         .project-image {
+          height: calc(100% - 60px);
           width: 320px;
         }
         .project-title {
-          font-size: 18px;
+          padding: 10px 0;
+          font-size: 22px;
+
         }
       }
     }
