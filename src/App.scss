@@ -153,8 +153,8 @@
   .projectlist-p {
     font-family: "Poppins", sans-serif;
     font-size: 40px;
-    border-bottom: 3px solid #fff;    
-    margin-bottom: 50px;
+    border-bottom: 3px solid #fff;
+    margin-bottom: 60px;
   }
   .projectlist {
     display: grid;
@@ -162,7 +162,7 @@
     grid-gap: 4rem;
     margin: 0 auto;
     justify-content: center;
-    text-align: center;;
+    text-align: center;
     .project {
       background: #303841;
       box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
@@ -170,14 +170,14 @@
       cursor: pointer;
       text-decoration: none;
       .project-image {
-        height: calc(100% - 110px);
+        height: calc(100% - 90px);
         width: 100%;
         object-fit: cover;
       }
       .project-title {
         font-family: "Poppins", sans-serif;
         font-size: 30px;
-        padding: 28px 0;
+        padding: 20px 0;
         span {
           padding: 8px;
           color: #303841;
@@ -350,23 +350,22 @@
   }
 
   .projectlist-container {
+    padding: 40px 0;
     .projectlist-p {
-      margin: 20px;
+      margin-bottom: 40px;
       font-size: 22px;
       border-bottom: 2px solid #fff;
     }
     .projectlist {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      margin-bottom: 20px;
+      grid-template: auto/ repeat(1, 1fr);
+      grid-gap: 0.5rem;
       .project {
         margin: 20px 0px;
         .project-image {
           width: 320px;
         }
         .project-title {
-          font-size: 18px
+          font-size: 18px;
         }
       }
     }
