@@ -3,6 +3,22 @@ export default function Projects() {
     <div className="projectlist-container" id="projectlist-container">
       <p className="projectlist-p">These are some of my projects...</p>
       <div className="projectlist">
+        <a
+          href="https://stocks-anku-js.vercel.app/"
+          target="_blank"
+          className="project"
+        >
+          <img
+            className="project-image"
+            src="Stocks.jpg"
+            alt="screenshot of react table project"
+          />
+          <p className="project-title">
+            <span className="code">&lt;</span>
+            Stock Watch
+            <span className="code">/&gt;</span>
+          </p>
+        </a>
         <a href="" target="_blank" className="project">
           <img
             className="project-image"
