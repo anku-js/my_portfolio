@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
-    <div className="projectlist-container" id="projectlist-container">
-      <p className="projectlist-p">These are some of my projects...</p>
+    <div className="projectlist-container">
+      <p className="projectlist-p" id="projectlist">These are some of my projects...</p>
       <div className="projectlist">
         <a
           href="https://stocks-anku-js.vercel.app/"

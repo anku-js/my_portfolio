@@ -6,7 +6,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 
 export default function Introduction() {
   return (
-    <div className="introduction-container" id="introduction-container">
+    <div className="introduction-container" id="introduction">
       <div className="introduction">
         <img className="avatar" src="avatar.png" alt="animated avatar of a girl" />
         <div className="description-container">

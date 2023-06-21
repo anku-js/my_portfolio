@@ -13,21 +13,21 @@ const [ hamburgerActive, setHamburgerActive] = useState(false)
       <nav className="header">
         <div className="name">
           <div>
-            <FaReact className="react-logo" />
+            <a href="#introduction"><FaReact className="react-logo" /></a>
           </div>
           <div>
-            <h1>Anku Kumari</h1>
+            <a href="#introduction">Anku Kumari</a>
           </div>
         </div>
         <ul className={`nav-list ${hamburgerActive? "active" : ""}`}>
-          <li>
+          {/* <li>
             <a onClick={handleClick} href="#introduction-container">About</a>
+          </li> */}
+          <li>
+            <a onClick={handleClick}  href="#projectlist">Projects</a>
           </li>
           <li>
-            <a onClick={handleClick}  href="#projectlist-container">Projects</a>
-          </li>
-          <li>
-            <a onClick={handleClick}  href="#footer-container">Contact</a>
+            <a onClick={handleClick}  href="#footer">Contact</a>
           </li>
         </ul>
         <div className={`hamburger ${hamburgerActive? "active" : ""}`} onClick={handleClick}>
