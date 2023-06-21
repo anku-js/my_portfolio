@@ -2,6 +2,7 @@ import { GrHtml5, GrCss3, GrReactjs } from "react-icons/gr";
 import { IoLogoJavascript, IoLogoSass } from "react-icons/io";
 import { SiTypescript } from "react-icons/si";
 import { BsGit, BsGithub } from "react-icons/bs";
+import { TbBrandNextjs } from "react-icons/tb";
 
 export default function Introduction() {
   return (
@@ -18,6 +19,10 @@ export default function Introduction() {
               <li>
                 <GrHtml5 className="skills-icons" />
                 <p>HTML</p>
+              </li>
+              <li>
+                <TbBrandNextjs className="skills-icons" />
+                <p>Next</p>
               </li>
               <li>
                 <GrCss3 className="skills-icons" />

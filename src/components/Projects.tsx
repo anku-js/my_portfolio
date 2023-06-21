@@ -19,7 +19,11 @@ export default function Projects() {
             <span className="code">/&gt;</span>
           </p>
         </a>
-        <a href="" target="_blank" className="project">
+        <a
+          href="https://friendslist-imt4anqpi-anku-js.vercel.app/"
+          target="_blank"
+          className="project"
+        >
           <img
             className="project-image"
             src="friends.jpg"
