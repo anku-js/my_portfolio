@@ -36,22 +36,6 @@ export default function Projects() {
           </p>
         </a>
         <a
-          href="https://main--luminous-monstera-f0a7de.netlify.app/"
-          target="_blank"
-          className="project"
-        >
-          <img
-            className="project-image"
-            src="shopping.jpg"
-            alt="screenshot of shopping app project"
-          />
-          <p className="project-title">
-            <span className="code">&lt;</span>
-            Shopping
-            <span className="code">/&gt;</span>
-          </p>
-        </a>
-        <a
           href="https://tenzies-wheat-one.vercel.app/"
           target="_blank"
           className="project"
