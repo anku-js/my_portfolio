@@ -20,6 +20,22 @@ export default function Projects() {
           </p>
         </a>
         <a
+          href="https://emojis-black.vercel.app/"
+          target="_blank"
+          className="project"
+        >
+          <img
+            className="project-image"
+            src="Emojis.jpg"
+            alt="screenshot of Emojis project"
+          />
+          <p className="project-title">
+            <span className="code">&lt;</span>
+            Emojis
+            <span className="code">/&gt;</span>
+          </p>
+        </a>
+        <a
           href="https://friendslist-imt4anqpi-anku-js.vercel.app/"
           target="_blank"
           className="project"
