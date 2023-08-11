@@ -36,7 +36,7 @@ export default function Projects() {
           </p>
         </a>
         <a
-          href="https://friendslist-imt4anqpi-anku-js.vercel.app/"
+          href="https://elated-bhabha-d129b1.netlify.app/"
           target="_blank"
           className="project"
         >

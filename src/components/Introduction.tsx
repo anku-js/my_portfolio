@@ -12,7 +12,7 @@ export default function Introduction() {
         <div className="description-container">
           <p className="intro-name">Hey, I am Anku Kumari</p>
           <p className="intro-paragraph">
-            . . . Frontend Developer
+            . . . An experienced Frontend Developer (React)
           </p>
           <div className="skills-wrapper">
             <ul className="skills-list">
