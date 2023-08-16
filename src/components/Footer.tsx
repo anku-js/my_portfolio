@@ -19,7 +19,7 @@ export default function Footer() {
           </a>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1JowJGO9TWZX8pSwTx0OL5JeEmRy3yHj0/view?usp=sharing"
+            href="https://drive.google.com/file/d/1_itcfe8KoqQPQxHWkps5IYjWMRckQMrd/view?usp=sharing"
             className="contact"
           >
             <RxResume />
