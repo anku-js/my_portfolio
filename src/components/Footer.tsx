@@ -1,7 +1,6 @@
 import { AiOutlineCopyright } from "react-icons/ai";
 import { IoMdPhonePortrait } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
-import { RxResume } from "react-icons/rx";
 
 export default function Footer() {
   return (
@@ -16,14 +15,6 @@ export default function Footer() {
           <a href="tel:9066740736" className="contact">
             <IoMdPhonePortrait />
             <p>Call me</p>
-          </a>
-          <a
-            target="_blank"
-            href="https://drive.google.com/file/d/1_itcfe8KoqQPQxHWkps5IYjWMRckQMrd/view?usp=sharing"
-            className="contact"
-          >
-            <RxResume />
-            <p>My Resume</p>
           </a>
         </div>
       </div>
