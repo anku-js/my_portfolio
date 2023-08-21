@@ -1,7 +1,9 @@
 export default function Projects() {
   return (
     <div className="projectlist-container">
-      <p className="projectlist-p" id="projectlist">These are some of my projects</p>
+      <p className="projectlist-p" id="projectlist">
+        These are some of my projects
+      </p>
       <div className="projectlist">
         <a
           href="https://stocks-anku-js.vercel.app/"
@@ -16,6 +18,22 @@ export default function Projects() {
           <p className="project-title">
             <span className="code">&lt;</span>
             Stock Watch
+            <span className="code">/&gt;</span>
+          </p>
+        </a>
+        <a
+          href="https://gsiv-23-anku-kumari.vercel.app/"
+          target="_blank"
+          className="project"
+        >
+          <img
+            className="project-image"
+            src="Movies.jpg"
+            alt="screenshot of react table project"
+          />
+          <p className="project-title">
+            <span className="code">&lt;</span>
+            Movies
             <span className="code">/&gt;</span>
           </p>
         </a>
