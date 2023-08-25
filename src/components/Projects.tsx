@@ -13,7 +13,7 @@ export default function Projects() {
           <img
             className="project-image"
             src="Stocks.jpg"
-            alt="screenshot of react table project"
+            alt="screenshot Stocks Watch project"
           />
           <p className="project-title">
             <span className="code">&lt;</span>
@@ -29,7 +29,7 @@ export default function Projects() {
           <img
             className="project-image"
             src="Movies.jpg"
-            alt="screenshot of react table project"
+            alt="screenshot Movies project"
           />
           <p className="project-title">
             <span className="code">&lt;</span>
@@ -37,7 +37,7 @@ export default function Projects() {
             <span className="code">/&gt;</span>
           </p>
         </a>
-        <a
+        {/* <a
           href="https://emojis-black.vercel.app/"
           target="_blank"
           className="project"
@@ -52,7 +52,7 @@ export default function Projects() {
             Emojis
             <span className="code">/&gt;</span>
           </p>
-        </a>
+        </a> */}
         <a
           href="https://elated-bhabha-d129b1.netlify.app/"
           target="_blank"
