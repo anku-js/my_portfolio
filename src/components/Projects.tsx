@@ -21,23 +21,25 @@ export default function Projects() {
             <span className="code">/&gt;</span>
           </p>
         </a>
+
         <a
-          href="https://gsiv-23-anku-kumari.vercel.app/"
+          href="https://koinx-kmzn8dxhx-anku-js.vercel.app/"
           target="_blank"
           className="project"
         >
           <img
             className="project-image"
-            src="Movies.jpg"
+            src="Bitcoin.jpg"
             alt="screenshot Movies project"
           />
           <p className="project-title">
             <span className="code">&lt;</span>
-            Movies
+            Bitcoin
             <span className="code">/&gt;</span>
           </p>
         </a>
-        {/* <a
+
+        <a
           href="https://emojis-black.vercel.app/"
           target="_blank"
           className="project"
@@ -52,36 +54,36 @@ export default function Projects() {
             Emojis
             <span className="code">/&gt;</span>
           </p>
-        </a> */}
+        </a>
         <a
-          href="https://elated-bhabha-d129b1.netlify.app/"
+          href="https://hexleap-tau.vercel.app/"
           target="_blank"
           className="project"
         >
           <img
             className="project-image"
-            src="friends.jpg"
+            src="Assignment.jpg"
             alt="screenshot of friend's list project"
           />
           <p className="project-title">
             <span className="code">&lt;</span>
-            Friend's List
+            Assessment
             <span className="code">/&gt;</span>
           </p>
         </a>
         <a
-          href="https://tenzies-wheat-one.vercel.app/"
+          href="https://homellc-7fh9jx6yo-anku-js.vercel.app/"
           target="_blank"
           className="project"
         >
           <img
             className="project-image"
-            src="tenzies.jpg"
+            src="Weather.jpg"
             alt="screenshot of tenzies game project"
           />
           <p className="project-title">
             <span className="code">&lt;</span>
-            Tenzies
+            Weather App
             <span className="code">/&gt;</span>
           </p>
         </a>
@@ -97,24 +99,7 @@ export default function Projects() {
           />
           <p className="project-title">
             <span className="code">&lt;</span>
-            Assessment
-            <span className="code">/&gt;</span>
-          </p>
-        </a>
-        <a
-          href="https://react-table-three.vercel.app/"
-          target="_blank"
-          className="project"
-        >
-          <img
-            className="project-image"
-            src="react-table.jpg"
-            alt="screenshot of react table project"
-          />
-          <p className="project-title">
-            <span className="code">&lt;</span>
-            React Table
-            <span className="code">/&gt;</span>
+            Assessment 2<span className="code">/&gt;</span>
           </p>
         </a>
       </div>
